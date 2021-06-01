@@ -210,8 +210,8 @@ public class LibroServicio {
             Libro edit = em.find(Libro.class, isbn);
             if (edit != null) {
 
-                if (edit.getEjemplanes() > 1 && edit.getPrestados() < 1) {
-                    edit.setEjemplanes(edit.getEjemplanes() - 1);
+                if (edit.getEjemplanes() > 1) {
+                    edit.setEjemplanes(edit.getEjemplanes() -1);
                     edit.setPrestados(edit.getPrestados() + 1);
                 } else {
                     System.out.println("Error, ejemplares no disponibles");

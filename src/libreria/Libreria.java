@@ -18,14 +18,14 @@ public class Libreria {
     public static void main(String[] args) throws Exception {
         Scanner leer = new Scanner(System.in).useDelimiter("\n");
 
-//        AutorServicio as = new AutorServicio();
-//
-//////////////////Crear Crear//////////////
+        AutorServicio as = new AutorServicio();
+
+////////////////Crear Crear//////////////
 //        as.crearAutor("Jose");
 //        as.crearAutor("Sabrina");
-////        as.crearAutor("Pedro");
-////        as.crearAutor("Yoana");
-////        as.crearAutor("Brian");
+//        as.crearAutor("Pedro");
+//        as.crearAutor("Yoana");
+//        as.crearAutor("Brian");
 ////////////////Consultar Autor////////////        
 ////        System.out.println("Ingrese el autor a buscar");
 ////        String nombre = leer.next();
